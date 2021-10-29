@@ -29,6 +29,12 @@ const Card = (article) => {
   div3.appendChild(div4)
   div4.appendChild(img)
 
+  div.addEventListener('click', function1)
+
+  function function1() {
+    console.log(headline)
+  }
+
   return div
   // TASK 5
   // ---------------------
